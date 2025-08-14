@@ -1,0 +1,11 @@
+spring:
+  application:
+    name:GradleProject
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oca42
+    username: db
+    password: password
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: update
